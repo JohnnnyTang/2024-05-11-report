@@ -49,11 +49,11 @@ class: "text-black bg-white"
 
 <p class="absolute top-22 right-12 opacity-100 color-black fw-bold font-size-6">不知道QGIS/插件里发生了什么</p>
 <div class="absolute w-16 h-16 top-34 right-44 opacity-100 color-black fw-bold font-size-6">
-  <CustomArrow img="/right-arrow.png" point="down"/>
+  <CustomArrow img="./right-arrow.png" point="down"/>
 </div>
 <p class="absolute top-48 right-19 opacity-100 color-black fw-bold font-size-6 color-blue-8">把控制权掌握在自己手中</p>
 <div class="absolute w-16 h-16 top-61 right-44 opacity-100 color-black fw-bold font-size-6">
-  <CustomArrow img="/right-arrow.png" point="down"/>
+  <CustomArrow img="./right-arrow.png" point="down"/>
 </div>
 <div class="absolute top-76 right-24 opacity-100 color-black fw-bold font-size-6">
   <ImageRow :imgList="imgList" :widthList="widthList"/>
@@ -91,7 +91,7 @@ while(待处理数据) {
 ```
 
 <div class="absolute w-48 h-48 top-58 left-106 opacity-100 color-black fw-bold font-size-6" v-click>
-  <CustomArrow img="/close.png"/>
+  <CustomArrow img="./close.png"/>
 </div>
 
 
@@ -105,7 +105,7 @@ while(待处理数据) {
 
 
 <div class="absolute w-18 h-18 top-74 left-122 opacity-100 color-black fw-bold font-size-6 z-3" v-click>
-  <CustomArrow img="/right-arrow.png" point="down"/>
+  <CustomArrow img="./right-arrow.png" point="down"/>
 </div>
 
 <div class="absolute right-80 top-91 color-blue-6 z-3" v-after>
@@ -114,7 +114,7 @@ while(待处理数据) {
 
 <script setup lang="ts">
 import { ref } from 'vue'
-const imgList = ref(['/python.png', '/add.png', '/ezdxf.png'])
+const imgList = ref(['./python.png', './add.png', './ezdxf.png'])
 
 const widthList = ref(['50rem', '30rem', '100rem'])
 

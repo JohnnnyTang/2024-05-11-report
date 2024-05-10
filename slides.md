@@ -67,7 +67,7 @@ class: "text-black bg-white"
   <SimpleTextCard fontSize="1.4" text="仙林宾馆闭关" backgroundColor="rgba(127,197,253, 0.5)"/>
 </div>
 <div class="absolute right-118 bottom-5 color-blue-6 w-10 h-10" v-after>
-  <CustomArrow img="/right-arrow.png"/>
+  <CustomArrow img="./right-arrow.png"/>
 </div>
 <div class="absolute right-98 bottom-2 color-blue-6" v-after>
   <SimpleTextCard fontSize="1.4" text="V0.1" backgroundColor="rgba(127,197,253, 0.5)"/>
@@ -185,7 +185,7 @@ class: "text-black bg-white"
 
 <!-- <ModelFlow /> -->
 <div class="absolute right-68 bottom-5 color-blue-6 w-50 h-72" v-click>
-  <CustomArrow img="/circle.png"/>
+  <CustomArrow img="./circle.png"/>
 </div>
 <p class="absolute right-12 bottom-55 color-blue-6 font-size-4.5" v-after>做出来才有需求的想象空间</p>
 
@@ -333,7 +333,7 @@ class: "text-black bg-white"
 ---
 
 <div class="absolute left-30 bottom-34 color-blue-6 fw-bold w-80 border-4">
-  <SimpleCard fontSize="1.0" title="崩岸系统V0.2+" content="继续开发" img="/sys.png"/>
+  <SimpleCard fontSize="1.0" title="崩岸系统V0.2+" content="继续开发" img="./sys.png"/>
 </div>
 
 <div class="absolute right-30 bottom-34 color-blue-6 fw-bold w-80 border-4">
@@ -343,7 +343,7 @@ class: "text-black bg-white"
   <SimpleCard fontSize="1.0" title="" content=""/>
 </div>
 <div class="absolute right-51 bottom-65 color-blue-6 fw-bold w-36 h-36">
-  <img src="/cross.png" alt="" class="object-contain">
+  <img src="./cross.png" alt="" class="object-contain">
 </div>
 
 # 3 后续安排
