@@ -1,0 +1,25 @@
+{
+  "name": "design-v2",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.1",
+    "@slidev/theme-apple-basic": "^0.25.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@vue-flow/core": "^1.33.6",
+    "naive-ui": "^2.38.2",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-slidev": "^1.0.5",
+    "sass": "^1.77.0",
+    "vfonts": "^0.0.3"
+  }
+}

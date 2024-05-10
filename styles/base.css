@@ -1,0 +1,40 @@
+.text-cover {
+    font-size: 1.6rem;
+}
+
+.text-cover h1 {
+    font-size: 3.2rem!important;
+}
+
+.border-round {
+    border-radius: 50%;
+}
+
+.round-bg {
+    background-image: url('/round.png');
+    background-size: cover;
+}
+
+.slidev-page-2 {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    h1 {
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    p {
+        opacity: 1;
+    }
+}
+
+.slidev-page {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    h1 {
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+}
+
+
+svg.rough-annotation {
+    z-index: 5;
+  }
