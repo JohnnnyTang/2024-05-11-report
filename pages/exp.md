@@ -49,11 +49,11 @@ class: "text-black bg-white"
 
 <p class="absolute top-22 right-12 opacity-100 color-black fw-bold font-size-6">不知道QGIS/插件里发生了什么</p>
 <div class="absolute w-16 h-16 top-34 right-44 opacity-100 color-black fw-bold font-size-6" v-click>
-  <CustomArrow img="./right-arrow.png" point="down"/>
+  <CustomArrow img="https://johnnnytang.github.io/2024-05-11-report/right-arrow.png" point="down"/>
 </div>
 <p v-after class="absolute top-48 right-19 opacity-100 color-black fw-bold font-size-6 color-blue-8">把控制权掌握在自己手中</p>
 <div class="absolute w-16 h-16 top-61 right-44 opacity-100 color-black fw-bold font-size-6" v-click>
-  <CustomArrow img="./right-arrow.png" point="down"/>
+  <CustomArrow img="https://johnnnytang.github.io/2024-05-11-report/right-arrow.png" point="down"/>
 </div>
 <div class="absolute top-76 right-24 opacity-100 color-black fw-bold font-size-6" v-after>
   <ImageRow :imgList="imgList" :widthList="widthList"/>
@@ -84,7 +84,7 @@ class: "text-black bg-white"
 
 <script setup lang="ts">
 import { ref } from 'vue'
-const imgList = ref(['./python.png', './add.png', './ezdxf.png'])
+const imgList = ref(['https://johnnnytang.github.io/2024-05-11-report/python.png', 'https://johnnnytang.github.io/2024-05-11-report/add.png', 'https://johnnnytang.github.io/2024-05-11-report/ezdxf.png'])
 
 const widthList = ref(['50rem', '30rem', '100rem'])
 
