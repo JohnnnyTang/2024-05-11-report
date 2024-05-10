@@ -73,7 +73,7 @@ class: "text-black bg-white"
 - INSERT
 </div>
 
-<div class="absolute w-10 h-10 bottom-18 right-22 opacity-100 color-black fw-bold font-size-5 bg-cover bg-no-repeat" style="background-image: url('/add.png'); transform: rotate(45deg);"></div>
+<div class="absolute w-10 h-10 bottom-18 right-22 opacity-100 color-black fw-bold font-size-5 bg-cover bg-no-repeat" style="background-image: url('https://johnnnytang.github.io/2024-05-11-report/add.png'); transform: rotate(45deg);"></div>
 <div class="absolute w-10 h-10 bottom-22 right-8 opacity-100 color-blue-5 fw-bold  bg-cover bg-no-repeat font-size-13 font-serif">N</div>
 
 <!-- <div class="absolute bottom-56 right-80 opacity-100 color-blue-6 flex">
